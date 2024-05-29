@@ -7,6 +7,8 @@
 - Thermistor 3950 100kOhm
 - Stepper motor driver DRV8825
 - Relay
+- DC-DC Step Down converter (only if power supply is greater than 15V)
+- Power Supply
 
 ## Features
 In this project, hardware interrupts, timer interrupts, and simple temperature filtering were used.
