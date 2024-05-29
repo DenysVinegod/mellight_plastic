@@ -1,27 +1,35 @@
-Arduino project for recicling pet-bottles into filament for 3d printer
+# Arduino Project for Recycling PET Bottles into Filament for 3D Printer
 
-Components:
-    - Arduino (UNO|Nano|ProMini)
-    - OLED display 128x64 (SSD1306)
-    - Encoder with button
-    - Termistor 3950 100kOhm
-    - Step engine driver DRV8825
-    - Relay
+## Components
+- Arduino (UNO | Nano | Pro Mini)
+- OLED display 128x64 (SSD1306)
+- Encoder with button
+- Thermistor 3950 100kOhm
+- Stepper motor driver DRV8825
+- Relay
 
-In project was used hardware interrupts, interrupts by timer, simple temperatre filtring.
+## Features
+In this project, hardware interrupts, timer interrupts, and simple temperature filtering were used.
 
-UserInterface localised ukrainian language.
+The user interface is localized in the Ukrainian language.
 
-Software version 0.1 suports basic actions such as
-    choose engine rotate direction
-    choose engine speed (by rpm, step 10)
-    smooth start & stopof engine
-    choose temperature for heating
-    separate settigs for bottle cut & strerch plastic tape throught extruder
-    EEPROM configs storage
+### Software Version 0.1
+Supports basic actions such as:
+- Choosing engine rotation direction
+- Choosing engine speed (by RPM, step 10)
+- Smooth start & stop of the engine
+- Choosing temperature for heating
+- Separate settings for bottle cutting & stretching plastic tape through extruder
+- EEPROM configuration storage
 
-Usage instructions:
-For change rotation direction set cursor to "Двигун", then press button and rotate encoder
-For change rotation speed set cursor to "Швидкість", then press button and rotate encoder
-For dst-temperature set cursor to "Швидкість", then press button and rotate encoder
-*all other menu-entaris may be acivated by siingle press
+## Usage Instructions
+- To change the rotation direction, set the cursor to "Двигун", then press the button and rotate the encoder.
+- To change the rotation speed, set the cursor to "Швидкість", then press the button and rotate the encoder.
+- For target temperature, set the cursor to "Температура", then press the button and rotate the encoder.
+- All other menu entries may be activated by a single press.
+
+## Menu Options in Ukrainian
+- **Двигун** (Engine)
+- **Швидкість** (Speed)
+- **Температура** (Temperature)
+- **Всі інші параметри можуть бути активовані одноразовим натисканням** (All other parameters can be activated by a single press)
